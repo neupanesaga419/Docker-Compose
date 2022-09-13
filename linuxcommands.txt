@@ -1,0 +1,20 @@
+sudo bash
+
+change user in terminal from root to normal user
+
+su -l user
+
+change user permissions to  all user 
+
+o - Everyone
+u - user
+g - group
+
+r - read 
+w - write 
+x - execute
+
+chmod o+w <file or dir name> to give permissions to write files
+
+If we want to give permissions to files and folders inside the directory and 777 means all permissions
+sudo chmod -R 777 <dirname>

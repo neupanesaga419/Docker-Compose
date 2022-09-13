@@ -1,0 +1,11 @@
+sudo docker-compose build
+
+sudo docker-compose run --rm <image_name> django-admin startproject <DjangoProjectName> .
+
+sudo docker-compose up
+
+sudo docker-compose run app python3 manage.py startapp myapp
+
+
+
+

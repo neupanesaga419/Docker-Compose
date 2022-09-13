@@ -1,0 +1,18 @@
+docker ps image -> all images
+docker ps -a  -> all container
+docker ps -> running container
+
+
+docker-compose build
+
+docker-compose up
+docker-compose down
+
+docker-compose exec <container_name>
+
+
+docker exec -it <container_name> bash
+-> to run makemigration migrate createsuperuser or other python
+related command. 
+
+
